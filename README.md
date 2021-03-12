@@ -103,3 +103,12 @@ $ az keyvault set-policy --name "kul-kv" --object-id "<systemAssignedIdentity_fr
   "type": "Microsoft.KeyVault/vaults"
 }
 ```
+### Settng up python3, pip3 & python libraries
+```
+$ sudo apt-get update -y
+$ sudo apt-get install -y python3
+$ sudo apt-get install -y python3-pip
+$ sudo -H pip3 install --upgrade pip
+$ pip3 install azure-keyvault-secrets
+$ pip3 install azure.identity
+```

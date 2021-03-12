@@ -112,3 +112,7 @@ $ sudo -H pip3 install --upgrade pip
 $ pip3 install azure-keyvault-secrets
 $ pip3 install azure.identity
 ```
+### Running Application to Retreive Secret
+```
+$ python3 retrieved_secret.py
+```
